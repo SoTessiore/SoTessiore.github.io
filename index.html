@@ -1,0 +1,129 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="portfolio">
+    <title>Solène Tessiore | Etudiante en informatique</title>
+    <script src="https://kit.fontawesome.com/a0d144929d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="see_more.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <nav id="menu">
+            <a class="border link" href=#about>à propos</a>
+            <a class="border link" href=#realisations>réalisations</a>
+            <a class="link" href=#contact >contact</a>
+        </nav>
+        <div id="logo-name">
+            <img id="logo" src="Logo.svg"></img>
+            <p id="name">Solène TESSIORE</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="container">
+            <div id="contenu_about">
+                <div class="title">A PROPOS</div>
+                <p id="text-about">Je suis étudiante en Informatique Graphique à l'IUT du Puy-en-Velay, 
+                et étant passionnée par l'informatique et tout particulièrement la programmation, 
+                notamment en python et en C++, je souhaiterais devenir développeur, 
+                de préférence dans le milieu du jeu vidéo.</p>
+                <a id="download" href="CV Solène Tessiore.pdf" download>
+                    <i id="picto_download" class="fas fa-download fa-2x"></i>
+                    <p>Télécharger le CV en PDF</p>
+                </a>
+            </div>
+            <img id="photo" src="photo.jpg" alt="Photo de Solène Tessiore"></img>
+        </section>
+
+        <section id="image1"></section>
+        
+        <section id="realisations">
+            <div id="realisations_title" class="title">REALISATIONS</div>
+            <div id="vignettes" class="disposition-vignettes">
+                <a href="index_réa.html" class="lien_projet">
+                    <div id="projet1" class="square">Titre 1</div>
+                </a>
+                <a href="" class="lien_projet">
+                    <div class="square">Titre 2</div>
+                </a>
+                <a href="" class="lien_projet">
+                    <div class="square">Titre 3</div>
+                </a>
+                <a href="" class="lien_projet">
+                    <div class="square">Titre 4</div>
+                </a>
+                <a href="" class="lien_projet">
+                    <div class="square">Titre 5</div>
+                </a>
+                <a href="" class="lien_projet">
+                    <div class="square">Titre 6</div>
+                </a>
+            </div>
+            <div id="cache" class="disposition-vignettes">
+                <a href="" class="lien_projet">
+                    <div class="square">Titre 7</div>
+                </a>
+                <a href="" class="lien_projet">
+                    <div class="square">Titre 8</div>
+                </a>
+                <a href="" class="lien_projet">
+                    <div class="square">Titre 9</div>
+                </a>
+            </div>
+                
+            <div id="realisations_button">
+                <button id="see_more" onclick="afficherMasquer('cache', 'see_more')">Voir tous les projets</button> 
+            </div>
+        </section>
+
+        <section id="image2"></section>
+
+        <section id="contact" class="container">
+            <div id="contact_contenu">
+                <div class="title">CONTACT</div>
+                <div id="infos">
+                    <div id="pictos-contact">
+                        <i class="fas fa-envelope fa-2x picto_text"></i>
+                        <i class="fas fa-mobile-alt fa-2x picto_text"></i>
+                        <i class="fas fa-map-marker-alt fa-2x picto_text"></i>
+                    </div>
+                    <div id="text-contact">
+                        <div>solene.tessiore@gmail.com</div>
+                        <div>06 83 35 22 77</div>
+                        <div>8 rue Jean-Baptiste Fabre, 43000 Le Puy en Velay</div>
+                    </div>
+                </div>
+                <div id="reseaux">
+                    <a href="https://www.instagram.com/so_tessiore/?hl=fr">
+                        <i class="fab fa-instagram couleur_reseaux"></i>
+                    </a>
+                    <a href="https://twitter.com/STessiore">
+                        <i class="fab fa-pinterest couleur_reseaux"></i>
+                    </a>
+                    <a href="https://www.pinterest.fr/SoTessiore/">
+                        <i class="fab fa-twitter couleur_reseaux"></i>
+                    </a>
+                </div>
+            </div>
+            <form id="formulaire" action="envoi.php" method="POST">
+                <legend id="to_contact">Pour vous contacter</legend>
+                <div id="form-content">
+                    <input name="name" placeholder="Votre nom" class="input-field info">
+                    <input name="email" type="email" placeholder="Votre email" class="input-field info">
+                    <textarea name="message" placeholder="Laissez un message" id="message" class="input-field message"></textarea>
+                    <button id="submit" type="submit">Envoyer</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div id="copyright">
+            Solène TESSIORE Copyright 2019-2020
+        </div>
+    </footer>
+
+</body>
