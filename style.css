@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho&display=swap');
+
+html,
+body {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 17px;
+    margin: 0;
+    max-width: 3000px;
+}
+
+/*header*/
+
+#menu {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 17pt;
+}
+header {
+    background-image: url("waves.svg");
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 600px;
+    display:flex;
+    justify-content: center;
+}
+
+.border {
+    border-right: 1px solid white;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    width: 220px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link:hover {
+    background-color: rgb(63, 63, 63);
+}
+
+#logo-name {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+#logo {
+    width: 500px;
+    height: auto;
+    max-width: 100%;
+}
+
+#name {
+    color: white;
+    font-size: 30pt;
+}
+
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+    font-size: 24pt;
+    padding-left: 1em;
+}
+
+#text-about {
+    display: flex;
+    font-size: 17px;
+    color: black;
+    width: 70%;
+    min-width: 400px;
+    text-align: justify;
+    padding-top: 1em;
+}
+
+#photo {
+    width: 80%;
+    height: auto;
+    max-width: 400px;
+    min-width: 180px;
+    margin-left: 30px;
+}
+
+#picto_download {
+    color: blue;
+    margin-right: 1em;
+}
+
+#download {
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+    padding-top: 5%;
+    text-decoration: none;
+    color: black;
+}
+
+#download:hover {
+    color: blue;
+}
+
+/*première image*/
+
+#image1 {
+    background-image: url("cut_motherboard.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 500px;
+    max-width: 100%;
+}
+
+/*section "réalisations"*/
+
+#realisations_title {
+    padding-left: 17%;
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.disposition-vignettes {
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#cache {
+    display: none;
+}
+
+.lien_projet {
+    text-decoration: none;
+}
+
+.square {
+    background-color: blue;
+    color: white;
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 180px;
+    margin-top: 40px;
+}
+
+#projet1{
+    background-image: url('Titre.png');
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+#realisations_button {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 80px;
+}
+
+#see_more {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    background-color: blue;
+    color: white;
+    font-size: 18pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 60px;
+    border: 0px;
+}
+
+/*deuxième image*/
+
+#image2 {
+    background-image: url("binary_code.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 500px;
+    max-width: 100%;
+}
+
+/*section "contact"*/
+
+#contact_contenu {
+    width: 50%;
+    height: auto;
+    min-width: 420px;
+}
+
+#infos {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+}
+
+.picto_text {
+    margin-right: 1em;
+}
+
+#pictos-contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#text-contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.couleur_reseaux {
+    text-decoration: none;
+    color: black;
+}
+
+.couleur_reseaux:hover {
+    color: blue;
+}
+
+#reseaux {
+    font-size: 22pt;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+#formulaire {
+    border: 1px solid black;
+    width: 45%;
+    height: auto;
+    min-width: 310px;
+    max-width: 600px;
+    font-size: 20pt;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#to_contact {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field {
+    margin-bottom: 20px;
+    padding-left: 5px;
+    width: 90%;
+    min-width: 270px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    border: 1px black solid;
+}
+
+.info {
+    height: 25px;
+}
+
+.message {
+    height: 75px;
+}
+
+#submit {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    background-color: blue;
+    color: white;
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    min-width: 270px;
+    border: 1px black solid;
+    margin-bottom: 20px;
+}
+
+/*footer*/
+
+footer {
+    height: 160px;
+    width: auto;
+    background-color: rgba(169, 169, 169, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#copyright {
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 1050px){
+    body {
+        font-size: 15px;
+    }
+    header {
+        height: 400px;
+    }
+    #logo {
+        width: 300px;
+    }
+    #name {
+        font-size: 20pt;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 13%;
+        padding-right: 13%;
+        
+    }
+    .title {
+        font-size: 22pt; 
+    }
+    #photo {
+        width: 220px;
+        height: 270px;
+        min-width: 180px;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    #text-about {
+        width: 100%;
+        font-size: 13px;
+    }
+    #image1, #image2 {
+        height: 350px;
+    }
+    .square {
+        font-size: 14pt;
+        width: 200px;
+        height: 110px;
+    }
+    #see_more {
+        font-size: 12pt;
+        width: 200px;
+        height: 40px;
+    }
+    #contact_contenu {
+        width: 60%;
+        height: auto;
+    }
+    #formulaire {
+        width: 70%;
+        font-size: 20pt;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+    footer {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    header {
+        height: 350px;
+    }
+    #image1, #image2 {
+        height: 200px;
+    }
+    #logo-name {
+        padding-top: 80px;
+    }
+    #logo {
+        width: 200px;
+    }
+    #name {
+        font-size: 18pt;
+    }
+    .square {
+        font-size: 11pt;
+        width: 150px;
+        height: 85px;
+    }
+    #see_more {
+        font-size: 10pt;
+        width: 150px;
+        height: 30px;
+    }
+}
